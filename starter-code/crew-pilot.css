@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Bellefair&family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@300&family=Bellefair&family=Inter:wght@300&display=swap');
+.cosmos{
+  background-image:url("C:\Users\77052\Desktop\t,fysq ghfrnfqc\space-tourism-website-main\starter-code\assets\home\background-home-desktop.jpg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.rectaaangle{
+  position: absolute;
+width: 900px;
+height: 96px;
+left: 610px;
+top: 40px;
+background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(81.5485px);
+}
+.lineee{
+  position: absolute;
+width: 400px;
+height: 1px;
+left: 250px;
+top: 88px;
+
+background: #ffffff;
+mix-blend-mode: normal;
+opacity: 0.25;
+}
+.nav__links{
+  position: absolute;
+width: 780px;
+height: 19px;
+left: 700px;
+top: 64px;
+  list-style-type: none;
+}
+.logo{
+  position: fixed;
+left: 10.5%;
+top: 64px;
+overflow: hidden;
+
+}
+.Home{
+position: absolute;
+height: 19px;
+left: 5%;
+right: 2.86%;
+top: calc(50% - 19px/2);
+
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 19px;
+letter-spacing: 2.7px;
+color: #FFFFFF;
+ text-decoration: none;
+}
+.Destination{
+  position: absolute;
+height: 19px;
+left: 25%;
+right: 3.08%;
+top: calc(50% - 19px/2);
+
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 19px;
+letter-spacing: 2.7px;
+color: #FFFFFF;
+ text-decoration: none;
+
+}
+.Crew{
+  position: absolute;
+height: 19px;
+left: 55%;
+right: 2.82%;
+top: calc(50% - 19px/2);
+
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 19px;
+letter-spacing: 2.7px;
+color: #FFFFFF;
+ text-decoration: none;
+
+}
+.Technology{
+  position: absolute;
+height: 19px;
+left: 75%;
+right: 1.57%;
+top: calc(50% - 19px/2);
+
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 19px;
+letter-spacing: 2.7px;
+color: #ffffff;
+ text-decoration: none;
+}
+.nav__bold1:hover::after{
+  width: 140px;
+      content:"";
+  position: absolute;
+  background-color: #ffffff;
+  height: 3px;
+
+  left: 0;
+  top: 18px;
+  transition: 1s;
+}
+.nav__bold0:hover::after{
+  width: 84px;
+      content:"";
+  position: absolute;
+  background-color: #ffffff;
+  height: 3px;
+
+  left: 0;
+  top: 18px;
+  transition: 1s;
+}
+.nav__bold2:hover::after{
+  width: 80px;
+      content:"";
+  position: absolute;
+  background-color: #ffffff;
+  height: 3px;
+
+  left: 0;
+  top: 18px;
+  transition: 1s;
+}
+.subheading--3{
+  position: absolute;
+height: 34px;
+left: 200px;
+right: 1.57%;
+top: 200px;
+
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 34px;
+
+letter-spacing: 4.725px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.crewworker{
+  position: absolute;
+width: 300px;
+height: 37px;
+left: 200px;
+
+top: 300px;
+
+font-family: Bellefair;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+/* identical to box height */
+
+text-transform: uppercase;
+color: #ffffff;
+}
+.crewname{
+  position: absolute;
+width:700 px;
+height: 64px;
+left: 200px;
+top: 350px;
+
+font-family: Bellefair;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 64px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.crewtext{
+  position: absolute;
+width: 444px;
+height: 128px;
+left: 200px;
+top: 450px;
+
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+color: #D0D6F9;
+}
+.humanimg{
+  position: absolute;
+width: 500px;
+height: 590px;
+left:900px;
+top: 160px;
+bottom: 0px;
+}
+.crewnav{
+position: absolute;
+width: 132px;
+height: 15px;
+left: 32px;
+top: 650px;
+}
+.krugnav{
+  position: absolute;
+width: 15px;
+height: 15px;
+left: 167px;
+  border-radius: 50%;
+background: #FFFFFF;
+opacity: 0.09;
+
+}
+.krugnav1{
+  position: absolute;
+width: 15px;
+height: 15px;
+left: 200px;
+  border-radius: 50%;
+background: #FFFFFF;
+opacity: 0.09;
+
+}
+.krugnav2{
+  position: absolute;
+width: 15px;
+height: 15px;
+left: 233px;
+  border-radius: 50%;
+background: #FFFFFF;
+
+}
+.krugnav3{
+  position: absolute;
+width: 15px;
+height: 15px;
+left: 266px;
+  border-radius: 50%;
+background: #FFFFFF;
+opacity: 0.09;
+
+}
